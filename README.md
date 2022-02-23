@@ -9,6 +9,10 @@ Split your Tabs/expenses/checks very easily :D
 
 ![image](https://user-images.githubusercontent.com/33352264/155249852-78ef8489-9a75-4584-a29f-cfadf60b9092.png)
 
+Hash Table to keep track of total:
+key<name>,value<total>
+
+
 BlueMountain,
 steve,joanne,jay,
 33.3,33.3,33.3,brunch,
