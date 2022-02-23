@@ -1,3 +1,8 @@
+""" Quick Documentation:
+- This py file inlucdes functionality of inputting items, prices, and people.
+- We crunch the numbers and divide the total between people. 
+"""
+
 from operator import truediv
 import sys
 import keyboard
@@ -12,8 +17,10 @@ def namesInput():
 
     
 
-def itemsInput():
-    itemList = []
+def itemsInput(): #names parameter
+    names_list = ["Steven", "Joanne", "Jay", "Xuejin", "Sharon"]
+
+    itemList = {} #items dictionary with (key, value) as (name, price)
 
     while True:
         item_name = input("What is the item? | Type 'DONE' to proceed: ")
@@ -21,10 +28,9 @@ def itemsInput():
             break
         else:
             item_price = input(f"What is {item_name} price? ")
-            itemList.append(f"{item_name} ${item_price}")
+            itemList[item_name] = item_price
         
-    print(itemList)    
-
+    return itemList
 
 def splitCheck():
 
@@ -34,4 +40,5 @@ def splitCheck():
     print(title)
     
     # namesInput()
-    itemsInput()
+    items_dict = itemsInput()
+    print(items_dict)
