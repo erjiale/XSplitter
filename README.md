@@ -14,7 +14,9 @@ key<name>,value<total>
 
 
 BlueMountain,
-steve,joanne,jay,
+  steve,joanne,jay,
+  
 33.3,33.3,33.3,brunch,
+  
 1,,1,skii
 
