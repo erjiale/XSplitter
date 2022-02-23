@@ -1,8 +1,8 @@
 # XSplitter
-Split your Tabs/expenses/checks very easily :D
+Split your Tabs/Expenses/Checks very easily :D
 
 ## User Interaction
-- 1:1 Human:CommandLine interaction
+- 1 on 1 Command Line to Human Interaction
 - Input item by item
 
 
@@ -13,8 +13,9 @@ Hash Table to keep track of total:
 key<name>,value<total>
 
 
+## Sample Command Line Log  
 BlueMountain,
-  steve,joanne,jay,
+  Steve,Joanne,Jay,
   
 33.3,33.3,33.3,brunch,
   
